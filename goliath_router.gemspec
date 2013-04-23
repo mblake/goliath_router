@@ -14,16 +14,16 @@ Gem::Specification.new do |gem|
   gem.name          = "goliath_router"
   gem.require_paths = ["lib"]
   gem.version       = GoliathRouter::VERSION
-  
-  
-  gem.add_dependency 'goliath', '0.9.4'
+
+
+  gem.add_dependency 'goliath', '>=1.0.1'
   gem.add_dependency 'http_router'
-  
+
   gem.add_development_dependency 'rake', '>=0.8.7'
   gem.add_development_dependency 'yard'
   gem.add_development_dependency 'rspec', '>2.0'
   gem.add_development_dependency 'em-http-request', '>=1.0.0'
   gem.add_development_dependency 'yajl-ruby'
   gem.add_development_dependency 'tilt'
-  
+
 end
