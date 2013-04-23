@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = GoliathRouter::VERSION
 
 
-  gem.add_dependency 'goliath', '>=1.0.1'
+  gem.add_dependency 'goliath'
   gem.add_dependency 'http_router'
 
   gem.add_development_dependency 'rake', '>=0.8.7'
